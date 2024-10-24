@@ -12,6 +12,14 @@
     </div>
   </div><br>
   <div class="row">
+    <div class="col-2">
+      <p>
+        <%= form.label :status, class: "form-label" %><br>
+        <%= form.select :status, Visible::VALID_STATUSES, {selected: 'public'}, {class: "form-select"} %>
+      </p>
+    </div>
+  </div><br>
+  <div class="row">
     <div class="col-3">
       <%= form.submit class: "btn btn-primary" %>
     </div>
