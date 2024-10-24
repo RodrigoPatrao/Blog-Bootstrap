@@ -1,24 +1,10 @@
-# README
+# BLOG-BOOTSTRAP
+Esse repositório é a execução do tutorial disponível [aqui](https://guides.rubyonrails.org/getting_started.html).
+Foi feito por pura curiosidade, para conferir como está a dinâmica de trabalho atual com Ruby e Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Foram usados:
 
-Things you may want to cover:
+- Ruby versão 3.1.5
+- Rails versão 7.2.1
+- Bootstrap versão 5.3
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
