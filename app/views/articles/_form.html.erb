@@ -1,0 +1,27 @@
+<%= form_with model: @article do |form| %>
+  <div class ="row">
+    <div class="col-6"
+      <%= form.label :title, :class => "form-label" %><br>
+      <%= form.text_field :title, :class => "form-control" %>
+      <% @article.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <%= form.label :body, :class => "form-label" %><br>
+      <%= form.text_area :body, :class => "form-control" %><br>
+      <% @article.errors.full_messages_for(:body).each do |message| %>
+        <div><%= message %></div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-1">
+      <%= form.submit :class => "btn btn-primary" %>
+    </div>
+  </div>
+<% end %>
